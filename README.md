@@ -34,3 +34,8 @@ Completed (core combat system implemented; additional features planned)
 - Randomized damage based on character stats
 - Improved console UI feedback
 - Resolve known HP display inconsistency
+
+## Notes
+- `BattleUI` contains experimental console formatting helpers intended to improve visual feedback during combat.
+- The class is currently not fully integrated into the combat loop due to display and flow issues discovered during testing.
+- The core combat logic remains functional and independent of the UI layer.
