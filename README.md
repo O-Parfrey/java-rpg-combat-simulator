@@ -22,4 +22,15 @@ This project simulates a simple RPG-style combat system where players and enemie
 - Modular system design
 
 ## Status
-In-Progress
+Completed (core combat system implemented; additional features planned)
+
+## Project Structure
+- `BattleMain` – Program entry point
+- `BattleTurn` – Handles turn-based combat flow
+- `Creature` – Base class for all combat entities
+- Derived classes implement character-specific behavior
+
+## Planned Improvements
+- Randomized damage based on character stats
+- Improved console UI feedback
+- Resolve known HP display inconsistency
